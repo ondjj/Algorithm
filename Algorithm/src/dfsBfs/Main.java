@@ -18,8 +18,8 @@ public class Main{
             return; 
         else{
 			DFS(root.lt);
-			System.out.print(root.data+" ");
 			DFS(root.rt);
+			System.out.print(root.data+" ");
 		}
     } 
   
