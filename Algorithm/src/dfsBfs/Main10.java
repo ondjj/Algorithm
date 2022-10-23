@@ -7,10 +7,13 @@ import java.util.Scanner;
 
 public class Main10 {
 	
+	// 노드 / 간선 방향
 	static int n,m;
 	
+	// 그래프 저장 ArrayList - ArrayList<Integer> 객체를 저장 받음
 	static ArrayList<ArrayList<Integer>> graph;
 	
+	// 방문 여부 / 거리 저장 배열
 	static int[] ch, dis;
 	
 	public void BFS(int v) {
