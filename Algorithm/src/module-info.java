@@ -1,3 +1,3 @@
-module Algorithm {
-	requires java.se;
-}
+//module Algorithm {
+//	 requires java.se;
+//}
